@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+header, footer {
+    background-color: #2d3136;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+/* Header block */
+
+textarea {
+    resize: none!important;
+}
+
+label {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+label span {
+    color: #be393b;
+}
+
+input, textarea {
+    background: #2d3136;
+    border: 1px solid #4c4f53;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 20px;
+}
+
+input:focus, textarea:focus {
+    border-color: #743538;
+    outline: none;
+    background-color: #2f3136;
+}
+
+
+.button, .button:focus {
+    background: #be393b;
+    border: none;
+    font-size: 20px;
+}
+
+.button:hover {
+    background: #9b2224;
+}
+/* Header block */
+
+/* Comments Block */
+
+main .container {
+    padding: 60px 0;
+}
+
+.comments-container {
+    margin: 0!important;
+}
+
+.comments-h {
+    color: #37414e;
+    margin-bottom: 60px;
+}
+
+.comment {
+    margin-bottom: 50px;
+}
+
+.comment header {
+    background-color: #4b596c;
+    font-size: 20px;
+}
+
+.comment:nth-child(even) header {
+    background-color: #58ad52;
+}
+
+.comment main {
+    background-color: #e9eef3;
+    height: 300px;
+}
+
+.comment:nth-child(even) main {
+    background-color: #deebde;
+}
+
+.comment main p {
+    margin: 0 25px;
+}
+
+.comment main p:first-child {
+    color: #6d737b;
+    font-size: 20px;
+}
+
+.comment:nth-child(even) main p:first-child {
+    color: #58ad52;
+}
+
+.comment main p:last-child {
+    color: #767582;
+    font-size: 18px;
+}
+
+.comment:nth-child(even) main p:last-child {
+    color: #768275;
+}
+/* Comments Block */
+
+/* Footer */
+
+.social-link {
+
+}
+
+.social-icons {
+    color: #656566;
+    border: 1px solid #454648;
+    background-color: #2f3338;
+    padding: 10px;
+    font-size: 20px;
+    min-width: 39.5px;
+    transition: all 0.7s;
+}
+
+.social-icons:hover {
+    color: #b9b9b9;
+    background-color: #4d5052;
+
+}
+
+/* Footer */
+
+
